@@ -1,14 +1,14 @@
 {
   "rewrites": [
-    { "source": "/blog",              "destination": "http://139.162.2.228/blog" },
-    { "source": "/blog/:path*",       "destination": "http://139.162.2.228/blog/:path*" },
-    { "source": "/wp-admin/:path*",   "destination": "http://139.162.2.228/wp-admin/:path*" },
-    { "source": "/wp-content/:path*", "destination": "http://139.162.2.228/wp-content/:path*" },
-    { "source": "/wp-includes/:path*","destination": "http://139.162.2.228/wp-includes/:path*" },
-    { "source": "/wp-login.php",      "destination": "http://139.162.2.228/wp-login.php" },
-    { "source": "/feed",              "destination": "http://139.162.2.228/feed" },
-    { "source": "/feed/:path*",       "destination": "http://139.162.2.228/feed/:path*" },
-    { "source": "/sitemap.xml",       "destination": "http://139.162.2.228/sitemap.xml" },
-    { "source": "/robots.txt",        "destination": "http://139.162.2.228/robots.txt" }
+    { "source": "/blog",              "destination": "http://origin.asiacommerce.net/blog" },
+    { "source": "/blog/:path*",       "destination": "http://origin.asiacommerce.net/blog/:path*" },
+    { "source": "/wp-admin/:path*",   "destination": "http://origin.asiacommerce.net/wp-admin/:path*" },
+    { "source": "/wp-content/:path*", "destination": "http://origin.asiacommerce.net/wp-content/:path*" },
+    { "source": "/wp-includes/:path*","destination": "http://origin.asiacommerce.net/wp-includes/:path*" },
+    { "source": "/wp-login.php",      "destination": "http://origin.asiacommerce.net/wp-login.php" },
+    { "source": "/feed",              "destination": "http://origin.asiacommerce.net/feed" },
+    { "source": "/feed/:path*",       "destination": "http://origin.asiacommerce.net/feed/:path*" },
+    { "source": "/sitemap.xml",       "destination": "http://origin.asiacommerce.net/sitemap.xml" },
+    { "source": "/robots.txt",        "destination": "http://origin.asiacommerce.net/robots.txt" }
   ]
 }
