@@ -50,7 +50,7 @@ export default function Hero() {
           {/* CTAs */}
           <div className="animate-fade-in-up delay-3 mt-8 flex flex-wrap gap-4">
             <Link
-              href="https://www.asiacommerce.net/contact"
+              href="https://asiacommerce.net/contact/"
               className="inline-flex items-center gap-2 bg-brand text-white font-semibold px-7 py-3.5 rounded-full hover:bg-brand-hover transition-colors shadow-lg shadow-brand/30"
             >
               Get Free Consultation
@@ -59,7 +59,7 @@ export default function Hero() {
               </svg>
             </Link>
             <Link
-              href="https://www.asiacommerce.net/services"
+              href="https://asiacommerce.net/services/"
               className="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-white font-semibold px-7 py-3.5 rounded-full hover:bg-white/20 transition-colors"
             >
               View Services

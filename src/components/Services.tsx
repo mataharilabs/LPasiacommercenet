@@ -6,7 +6,7 @@ const services = [
     flag: "🇨🇳",
     title: "Sourcing from China",
     desc: "Access thousands of verified manufacturers in China. We find the best quality products at competitive prices, negotiate on your behalf, and ensure QC before shipment.",
-    href: "https://www.asiacommerce.net/services/sourcing",
+    href: "https://asiacommerce.net/services/",
     features: ["Factory Verification", "Price Negotiation", "Quality Control"],
     icon: (
       <svg viewBox="0 0 48 48" className="w-8 h-8" fill="none">
@@ -20,7 +20,7 @@ const services = [
     flag: "📦",
     title: "Procurement to SEA",
     desc: "Full-service procurement management from purchase order to last-mile delivery across Southeast Asia. We handle customs, logistics, and compliance.",
-    href: "https://www.asiacommerce.net/services/procurement",
+    href: "https://asiacommerce.net/services/",
     features: ["PO Management", "Customs Clearance", "Compliance"],
     icon: (
       <svg viewBox="0 0 48 48" className="w-8 h-8" fill="none">
@@ -35,7 +35,7 @@ const services = [
     flag: "🚚",
     title: "Distribution to SEA",
     desc: "Warehouse, inventory management, and last-mile distribution network across Indonesia, Philippines, Singapore, Malaysia & Thailand.",
-    href: "https://www.asiacommerce.net/services/distribution",
+    href: "https://asiacommerce.net/services/",
     features: ["Warehousing", "Inventory Mgmt", "Last-Mile Delivery"],
     icon: (
       <svg viewBox="0 0 48 48" className="w-8 h-8" fill="none">
@@ -51,7 +51,7 @@ const services = [
     flag: "📣",
     title: "Promotion to SEA",
     desc: "Market entry strategy, digital marketing, and brand promotion tailored to each Southeast Asian market's culture and consumer behavior.",
-    href: "https://www.asiacommerce.net/services/promotion",
+    href: "https://asiacommerce.net/services/",
     features: ["Market Entry", "Digital Marketing", "Brand Promotion"],
     icon: (
       <svg viewBox="0 0 48 48" className="w-8 h-8" fill="none">

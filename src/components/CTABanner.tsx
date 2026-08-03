@@ -26,7 +26,7 @@ export default function CTABanner() {
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link
-            href="https://www.asiacommerce.net/contact"
+            href="https://asiacommerce.net/contact/"
             className="inline-flex items-center gap-2 bg-white text-brand font-bold px-8 py-4 rounded-full hover:bg-gray-50 transition-colors shadow-xl"
           >
             Get Free Consultation
@@ -35,7 +35,7 @@ export default function CTABanner() {
             </svg>
           </Link>
           <Link
-            href="https://www.asiacommerce.net/business-club"
+            href="https://asiacommerce.net/asiacommerce-business-club/"
             className="inline-flex items-center gap-2 border-2 border-white/50 text-white font-semibold px-8 py-4 rounded-full hover:bg-white/10 transition-colors"
           >
             Join Business Club

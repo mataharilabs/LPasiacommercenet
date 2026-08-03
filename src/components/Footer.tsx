@@ -5,26 +5,26 @@ const cols = [
   {
     title: "Services",
     links: [
-      { label: "Sourcing from China",       href: "https://www.asiacommerce.net/services/sourcing" },
-      { label: "Procurement to SEA",        href: "https://www.asiacommerce.net/services/procurement" },
-      { label: "Distribution to SEA",       href: "https://www.asiacommerce.net/services/distribution" },
-      { label: "Promotion to SEA",          href: "https://www.asiacommerce.net/services/promotion" },
+      { label: "Sourcing from China",  href: "https://asiacommerce.net/services/" },
+      { label: "Procurement to SEA",   href: "https://asiacommerce.net/services/" },
+      { label: "Distribution to SEA",  href: "https://asiacommerce.net/services/" },
+      { label: "Promotion to SEA",     href: "https://asiacommerce.net/services/" },
     ],
   },
   {
     title: "Company",
     links: [
-      { label: "About Us",      href: "https://www.asiacommerce.net/about" },
-      { label: "Why Choose Us", href: "https://www.asiacommerce.net/about/why-choose-us" },
-      { label: "Our Clients",   href: "https://www.asiacommerce.net/about/clients" },
-      { label: "Blog",          href: "https://www.asiacommerce.net/blog" },
+      { label: "About Us",      href: "https://asiacommerce.net/about-us/" },
+      { label: "Why Choose Us", href: "https://asiacommerce.net/about-us/" },
+      { label: "Our Clients",   href: "https://asiacommerce.net/about-us/" },
+      { label: "Blog",          href: "https://asiacommerce.net/blog/" },
     ],
   },
   {
     title: "Community",
     links: [
-      { label: "Business Club", href: "https://www.asiacommerce.net/business-club" },
-      { label: "Contact Us",    href: "https://www.asiacommerce.net/contact" },
+      { label: "Business Club", href: "https://asiacommerce.net/asiacommerce-business-club/" },
+      { label: "Contact Us",    href: "https://asiacommerce.net/contact/" },
     ],
   },
 ];

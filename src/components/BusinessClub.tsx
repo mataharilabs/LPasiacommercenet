@@ -43,7 +43,7 @@ export default function BusinessClub() {
             </ul>
 
             <Link
-              href="https://www.asiacommerce.net/business-club"
+              href="https://asiacommerce.net/asiacommerce-business-club/"
               className="inline-flex items-center gap-2 bg-brand text-white font-semibold px-8 py-4 rounded-full hover:bg-brand-hover transition-colors shadow-lg shadow-brand/30"
             >
               Join the Business Club

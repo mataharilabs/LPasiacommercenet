@@ -4,10 +4,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 const navLinks = [
-  { label: "About", href: "https://www.asiacommerce.net/about" },
-  { label: "Services", href: "https://www.asiacommerce.net/services" },
-  { label: "Blog", href: "https://www.asiacommerce.net/blog" },
-  { label: "Business Club", href: "https://www.asiacommerce.net/business-club" },
+  { label: "About", href: "https://asiacommerce.net/about-us/" },
+  { label: "Services", href: "https://asiacommerce.net/services/" },
+  { label: "Blog", href: "https://asiacommerce.net/blog/" },
+  { label: "Business Club", href: "https://asiacommerce.net/asiacommerce-business-club/" },
 ];
 
 export default function Navbar() {
@@ -61,7 +61,7 @@ export default function Navbar() {
         {/* CTA */}
         <div className="flex items-center gap-3">
           <Link
-            href="https://www.asiacommerce.net/contact"
+            href="https://asiacommerce.net/contact/"
             className="hidden md:inline-flex items-center gap-2 bg-brand text-white text-sm font-semibold px-5 py-2.5 rounded-full hover:bg-brand-hover transition-colors duration-200 shadow-sm"
           >
             Free Consultation
@@ -103,7 +103,7 @@ export default function Navbar() {
               </Link>
             ))}
             <Link
-              href="https://www.asiacommerce.net/contact"
+              href="https://asiacommerce.net/contact/"
               className="mt-2 text-center bg-brand text-white font-semibold px-5 py-3 rounded-xl hover:bg-brand-hover transition-colors"
             >
               Free Consultation
