@@ -1,14 +1,11 @@
 {
-  "rewrites": [
-    { "source": "/blog",              "destination": "http://origin.asiacommerce.net/blog" },
-    { "source": "/blog/:path*",       "destination": "http://origin.asiacommerce.net/blog/:path*" },
-    { "source": "/wp-admin/:path*",   "destination": "http://origin.asiacommerce.net/wp-admin/:path*" },
-    { "source": "/wp-content/:path*", "destination": "http://origin.asiacommerce.net/wp-content/:path*" },
-    { "source": "/wp-includes/:path*","destination": "http://origin.asiacommerce.net/wp-includes/:path*" },
-    { "source": "/wp-login.php",      "destination": "http://origin.asiacommerce.net/wp-login.php" },
-    { "source": "/feed",              "destination": "http://origin.asiacommerce.net/feed" },
-    { "source": "/feed/:path*",       "destination": "http://origin.asiacommerce.net/feed/:path*" },
-    { "source": "/sitemap.xml",       "destination": "http://origin.asiacommerce.net/sitemap.xml" },
-    { "source": "/robots.txt",        "destination": "http://origin.asiacommerce.net/robots.txt" }
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" }
+      ]
+    }
   ]
 }
